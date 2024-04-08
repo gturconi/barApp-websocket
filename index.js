@@ -2,6 +2,7 @@ const { app2 } = require('./app');
 const { webSocketApp } = require('./app');
 
 // Settings
+app2.use(cors());
 app2.set('server_port', process.env.SERVER_PORT || 3000);
 process.env.TZ = 'Etc/Universal';
 
