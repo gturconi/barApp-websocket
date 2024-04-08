@@ -1,5 +1,6 @@
 const { app2 } = require('./app');
 const { webSocketApp } = require('./app');
+const cors = require('cors');
 
 // Settings
 app2.use(cors());
