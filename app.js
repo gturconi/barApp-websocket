@@ -8,7 +8,7 @@ const webSocketApp = createServer(app2);
 const io = new Server(webSocketApp, {
   cors: {
     origin: '*', //`http://${process.env.FRONT_HOST}`,
-    credentials: true,
+    // credentials: true,
   },
 });
 
